@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="startView" width="1920" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" width="1920" height="1280" source="MainBg_jpg" locked="true"/>
+	<e:Image x="82" y="220" source="Mainframe_png" locked="true"/>
+	<e:Button id="MainRight" label="" x="1802" y="708" width="187" height="194" anchorOffsetX="96" anchorOffsetY="100" locked="true">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="MainRight_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="MainLeft" label="" x="114" y="702" anchorOffsetX="96" anchorOffsetY="92" width="186" height="190" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="MainLeft_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="MainbgTu" x="270" y="356" source="MainbgTu_png" width="1361" height="640"/>
+	<e:Image x="278" y="96" source="MainTitle_png" locked="true"/>
+	<e:Button id="MainCurriculumschedule" label="" x="1622.5" y="311.5" width="361" height="291" anchorOffsetX="178" anchorOffsetY="146">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="MainCurriculumschedule_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="MainDanciKaBen" label="" x="428" y="1099" anchorOffsetX="144" anchorOffsetY="92" width="286" height="184" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="MainDanciKaBen_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="MainGameBtn" label="" x="766" y="1104" width="320" height="208" anchorOffsetX="160" anchorOffsetY="108" locked="true">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="MainGameBtn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="ListEning" label="" x="1086" y="1106" width="317" height="193" anchorOffsetX="160" anchorOffsetY="98" locked="true">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ListEning_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="MainTest" label="" x="1462" y="1103" width="293" height="196" anchorOffsetX="144" anchorOffsetY="100" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="MainTest_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="MainDay" label="" x="216" y="385" width="304" height="290" anchorOffsetX="156" anchorOffsetY="148" locked="true">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="MainDay_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="MainPlayBtn_png" label="" x="953" y="730" width="230" height="236" anchorOffsetX="114" anchorOffsetY="118">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="MainPlayBtn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

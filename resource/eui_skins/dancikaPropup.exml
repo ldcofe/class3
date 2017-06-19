@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="dancikaPropup" width="1920" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="dancikabg_jpg" x="0" y="0"/>
+
+	<e:Group id="danciKaImageGroup" width="543" height="672" x="354" y="328" anchorOffsetX="0">
+		<e:Image source="apple_png" horizontalCenter="0" verticalCenter="-34" visible="false"/>
+	</e:Group>
+	<e:Label id="dancikaTextLabel" text="" y="716" anchorOffsetX="299.28" width="606" anchorOffsetY="98" height="188" textColor="0x1c0f0f" horizontalCenter="335" size="75" bold="true" wordWrap="true" textAlign="center"/>
+</e:Skin>

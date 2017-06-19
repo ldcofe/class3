@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameTest" width="1920" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="gametestBg_png" x="0" y="0" width="1920" height="1280"/>
+	<e:Group id="penhuoGroup" width="352.12" height="179.68" x="1537.67" y="485.9" anchorOffsetY="0" anchorOffsetX="0" rotation="347.52"/>
+	<e:Group id="mainGroup" width="1916" height="1278" x="-1916" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="dog" source="dog_png" x="450.49" y="733.08" scaleX="1" scaleY="1" anchorOffsetX="0" width="105" anchorOffsetY="0" height="163" visible="false"/>
+		<e:Image id="houzi" source="houzi_png" x="363.21" y="673.4" scaleX="1" scaleY="1" width="100" anchorOffsetY="0" height="162" visible="false"/>
+		<e:Image id="konglong" source="gameTestKonglong_png" x="-1.51" y="81.67" anchorOffsetX="0" width="1830" anchorOffsetY="0" height="1198"/>
+		<e:Image id="dogZhua" source="dogZhua_png" x="462.34" y="811.79" width="100" visible="false"/>
+		<e:Image id="peopleOwn" source="peopleOwn_png" x="913.53" y="454.05" scaleX="1" scaleY="1" width="130" height="254" visible="false"/>
+		<e:Image id="peopleThree" source="peopleThree_png" x="696.63" y="577.11" scaleX="1" scaleY="1" width="123" height="256" visible="false"/>
+		<e:Image id="peopleTwo" source="peopleTwo_png" x="807" y="509.76" scaleX="1" scaleY="1" width="140" height="252" visible="false"/>
+		<e:Image id="peopleFour" source="peopleFour_png" x="581" y="595.76" scaleX="1" scaleY="1" width="114" height="270" visible="false"/>
+	</e:Group>
+	<e:Group id="zhuaziGroup" width="1915.15" height="1281.82" x="3" y="-0.24" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+		<e:Group id="zhuaOwnGroup" width="512" height="377" x="348" y="1280" anchorOffsetX="257.46" anchorOffsetY="378.79" name="grape" scaleX="1" scaleY="1" visible="false">
+			<e:Image x="0" y="14" anchorOffsetX="0" width="512" anchorOffsetY="0" scaleX="1" scaleY="1" touchEnabled="false" source="gameCheckboxBtn_png" height="338"/>
+			<e:Image width="200" height="200" touchEnabled="false" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="6" verticalCenter="-14.5"/>
+		</e:Group>
+		<e:Group id="zhuaTwoGroup" width="512" height="377" y="1276.66" anchorOffsetX="257.46" anchorOffsetY="378.79" name="grape" scaleX="1" scaleY="1" horizontalCenter="0" locked="true" visible="false">
+			<e:Image x="0" y="20" anchorOffsetX="0" width="512" anchorOffsetY="0" scaleX="1" scaleY="1" touchEnabled="false" source="gameCheckboxBtn_png" height="332"/>
+			<e:Image width="200" height="200" touchEnabled="false" horizontalCenter="3" verticalCenter="-11.5"/>
+		</e:Group>
+		<e:Group id="zhuaThreeGroup" width="512" height="377" x="1577.91" y="1276.66" anchorOffsetX="257.46" anchorOffsetY="378.79" name="grape" scaleX="1" scaleY="1" locked="true" visible="false">
+			<e:Image x="0" y="24" anchorOffsetX="0" width="512" anchorOffsetY="0" scaleX="1" scaleY="1" touchEnabled="false" source="gameCheckboxBtn_png" height="328"/>
+			<e:Image width="200" height="200" touchEnabled="false" horizontalCenter="9" verticalCenter="-5.5"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

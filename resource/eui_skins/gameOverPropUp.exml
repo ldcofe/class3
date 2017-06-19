@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameOver" width="1280" height="713" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="gameOverMask" width="1920" height="1280" x="0" y="0">
+		<e:Rect width="1920" height="1280" x="0" y="3" fillAlpha="0.6"/>
+		<e:Image id="defenbanBg" source="defenbanPro_json.guangdefen" anchorOffsetX="509.42" anchorOffsetY="408.37" horizontalCenter="20" verticalCenter="8.5" width="1018" height="831"/>
+		<e:Group id="mianbanGroup" width="729.34" height="631.99" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="7.5" verticalCenter="-2">
+			<e:Image id="jianglimianban" source="defenbanPro_json.defenban" x="4.12" y="21.93" scaleX="1" scaleY="1" anchorOffsetX="0" width="707.67" anchorOffsetY="0" height="596"/>
+			<e:Image id="return" source="defenbanPro_json.fanhuianniu" x="142.51" y="389.65999999999997" scaleX="1" scaleY="1" visible="false"/>
+			<e:Image id="replaying" source="defenbanPro_json.nextBtn" x="299.86" y="556.14" scaleX="1" scaleY="1"/>
+			<e:Group id="xingxingOwnGroup" width="168" height="177" x="78.51" y="213.83" anchorOffsetY="0" anchorOffsetX="0" scaleY="1">
+				<e:Image id="xingxingOwn" source="defenbanPro_json.defenbanxing" scaleX="0" scaleY="0" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" width="168" height="177"/>
+			</e:Group>
+			<e:Group id="xingxingTwoGroup" width="168" height="177" x="273.47" y="167.14" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Image id="xingxingtwo" source="defenbanPro_json.defenbanxing" scaleX="0" scaleY="0" anchorOffsetX="78.79" anchorOffsetY="77.28" horizontalCenter="0" verticalCenter="0" width="168" height="177"/>
+			</e:Group>
+			<e:Group id="xingxingThreeGroup" width="180" height="185" x="456.46" y="206.34" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Image id="xingxingthree" source="defenbanPro_json.defenbanxing" anchorOffsetX="75.76" anchorOffsetY="80.3" scaleX="0" scaleY="0" horizontalCenter="0" verticalCenter="0" width="168" height="177"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	
+</e:Skin>

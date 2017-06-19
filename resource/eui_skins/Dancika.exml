@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XuangXiangKa" width="1920" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Image source="bg_png" x="0" y="0" locked="true"/>
+	<e:Image source="bgguangyun_png" x="-83" y="21" anchorOffsetX="0" width="2086" anchorOffsetY="0" height="1192" locked="true"/>
+	<e:Group id="scrollGroup" width="1664" height="1034" x="991" y="506.63" anchorOffsetY="498" anchorOffsetX="841" scrollEnabled="true">
+		<e:Group width="733" height="1080" x="-108" y="519" scaleX="0.3" scaleY="0.3" anchorOffsetX="386.67" anchorOffsetY="540" name="小熊">
+			<e:Image x="0" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" width="733" height="1080" source="xiaoxiong_png"/>
+			<e:Image source="grape_png" x="106.67" y="433.39" scaleX="1" scaleY="1" anchorOffsetX="0" width="476.67" anchorOffsetY="0" height="498.67"/>
+		</e:Group>
+		<e:Group width="733" height="1080" x="132" y="507.75" anchorOffsetX="366.67" anchorOffsetY="553.33" scaleX="0.4" scaleY="0.4" name="青蛙二">
+			<e:Image source="qingwa_png" x="0" y="0" width="733" height="1080"/>
+			<e:Image x="133.17" y="456.67" anchorOffsetX="0" width="476" anchorOffsetY="0" height="380.33" source="yellowTest_png"/>
+		</e:Group>
+		<e:Group width="733" height="1080" x="428.7" y="499.9" anchorOffsetX="364.93" anchorOffsetY="538.96" scaleX="0.55" scaleY="0.55" name="小熊">
+			<e:Image x="0" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" width="733" height="1080" source="xiaoxiong_png"/>
+			<e:Image source="grape_png" x="99.5" y="408.36" anchorOffsetX="0" width="494" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group width="733" height="1080" x="827.37" y="536" anchorOffsetX="377.14" anchorOffsetY="535.14" scaleX="0.7" scaleY="0.7" name="河马">
+			<e:Image anchorOffsetY="0" height="1080" anchorOffsetX="0" width="733" y="0" x="0" scaleX="1" scaleY="1" source="hema_png"/>
+			<e:Image source="apple_png" x="153.3399999999998" y="438.6542857142857" anchorOffsetY="0" height="322.79" anchorOffsetX="0" width="280.15" scaleX="1.4285714285714288" scaleY="1.4285714285714288"/>
+		</e:Group>
+		<e:Group width="733" height="1080" x="1222" y="512.9" anchorOffsetX="374.29" anchorOffsetY="526.23" scaleX="0.55" scaleY="0.55" name="青蛙">
+			<e:Image x="0" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" width="733" height="1080" source="qingwa_png"/>
+			<e:Image source="banana_png" x="126.01" y="451.76" anchorOffsetX="0" width="474.18" anchorOffsetY="0" height="372.45"/>
+		</e:Group>
+		<e:Group width="733" height="1080" x="1527" y="532.75" scaleX="0.4" scaleY="0.4" anchorOffsetX="381" anchorOffsetY="554" name="猪">
+			<e:Image x="0" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" name="猪" width="733" height="1080" source="zhu_png"/>
+			<e:Image source="redTest_png" x="134.5" y="493.28" anchorOffsetX="0" width="434" anchorOffsetY="0" height="434"/>
+		</e:Group>
+		<e:Group width="733" height="1080" x="1808" y="535" anchorOffsetX="375" anchorOffsetY="533" scaleX="0.3" scaleY="0.3" name="鸭子">
+			<e:Image x="0" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" width="733" height="1080" source="yazi_png"/>
+			<e:Image source="purpleTest_png" x="134.5" y="485.05" anchorOffsetX="0" width="444" anchorOffsetY="0" height="474"/>
+		</e:Group>
+	</e:Group>
+	<e:Image id="leftBtn" source="btnleft_png" x="1" y="490" locked="true"/>
+	<e:Image id="rightBtn" source="btnright_png" x="1760" y="482" locked="true"/>
+	<e:Group id="textGroup" width="560" height="214" x="706" y="986" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image y="-16" x="-55" scaleX="1" scaleY="1" horizontalCenter="-1.5" source="btnbg_png"/>
+		<e:Label id="xuanxiangkaziti" text="" anchorOffsetX="0" width="520" anchorOffsetY="0" height="148" textColor="0x000000" size="140" verticalAlign="middle" textAlign="center" fontFamily="Arial" bold="true" wordWrap="true" includeInLayout="true" italic="false" lineSpacing="0" multiline="false" scaleX="1" scaleY="1" x="22" y="24"/>
+		<e:Image source="btnbglaba_png" x="-49.5" y="-58.45"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,249 @@
+{
+    "XuanXiangKa":{
+        "xuanXiangKaMessage":{
+            "猪":{
+                "text":"red",
+                "kuaiAudio":"kuaiduRed_wav",
+                "manduAudio":"manduRed_wav",
+                "tankuangImageOwn":"apple_png",
+                "tankuangImageTwo":"",
+                "paragraph":"TheappleisredRed"
+            },
+            "鸭子":{
+                "text":"purple",
+                "kuaiAudio":"kuaidupurple_wav",
+                "manduAudio":"mandupurple_wav",
+                "tankuangImageOwn":"grape_png",
+                "tankuangImageTwo":"",
+                "paragraph":"ThegrapesarepurplePurple"
+            },
+            "小熊":{
+                "text":"grape",
+                "kuaiAudio":"kuaiduGrape_wav",
+                "manduAudio":"manduGrape_wav",
+                "tankuangImageOwn":"grape_png",
+                "tankuangImageTwo":"chiputao_png",
+                "paragraph":"ThegrapesarepurpleGrape"
+            },
+            "青蛙":{
+                "text":"banana",
+                "kuaiAudio":"kuaiduBanner_wav",
+                "manduAudio":"manduBanner_wav",
+                "tankuangImageOwn":"banana_png",
+                "tankuangImageTwo":"chixiangjiao_png",
+                "paragraph":"TheBannerIsYellowBanana"
+                
+            },
+            "河马":{
+                "text":"apple",
+                "kuaiAudio":"kuaiduApple_wav",
+                "manduAudio":"manduApple_wav",
+                "tankuangImageOwn":"apple_png",
+                "tankuangImageTwo":"chipingguo_png",
+                "paragraph":"TheappleisredApple"
+            },
+            "青蛙二":{
+                "text":"yellow",
+                "kuaiAudio":"KuaiduYellow_wav",
+                "manduAudio":"manduYellow_wav",
+                "tankuangImageOwn":"banana_png",
+                "tankuangImageTwo":"",
+                "paragraph":"TheBannerIsYellowBananaYellow"
+            }
+        }
+    },
+    "gamePlaying":[
+        {
+            "text":"apple",
+            "Iwantan":"I want an",
+            "IwantanApple":"I want an apple.",
+            "IwantshuiguoOwn":"IwantanAnApple",
+            "IwantshuiguoTwo":"kuaiduApple_wav",
+            "Imhungry":"I'm hungry",
+            "noText":"no, it is an apple.",
+            "noSounds":"noitisanapple",
+            "Image":"appleTest_png",
+            "name":"apple",
+            "audio":"kuaiduApple_wav",
+            "theisYummy":"theAppleisYummy"
+        },
+        {
+            "text":"banana",
+            "Iwantan":"I want ",
+            "IwantanApple":"I want bananas.",
+            "IwantshuiguoOwn":"IwantBananas",
+            "IwantshuiguoTwo":"kuaiduBanner_wav",
+            "noText":"no, it is a banana.",
+            "noSounds":"noitisabanana",
+            "Image":"bananaTest_png",
+            "name":"banana",
+            "audio":"kuaiduBanner_wav",
+            "theisYummy":"theBananaisYummy"
+        },
+        {
+            "text":"grape",
+            "Iwantan":"I want ",
+            "IwantanApple":"I want grapes.",
+            "IwantshuiguoOwn":"IwantGrapes",
+            "IwantshuiguoTwo":"kuaiduGrape_wav",
+            "noText":"no, it is a grape.",
+            "noSounds":"noitisagrape",
+            "Image":"grapeTest_png",
+            "name":"grape",
+            "audio":"kuaiduGrape_wav",
+            "theisYummy":"theGrapeisYummy"
+        }   
+    ],
+    "gamePlayingTwo":[
+        {
+            "text":"red",
+            "audio":"kuaiduRed_wav",
+            "Image":"redTest_png",
+            "name":"red",
+            "noSounds":"noitisred",
+            "guanlian":"apple",
+            "IwantshuiguoTwo":"theAppleIsRed_wav",
+            "IwantshuiguoOwn":"theAppleIsRed_wav",
+            "noText":"no, it is a red.",
+            "Iwantan":"The apple  ",
+            "theTextWenBen":"The apple is red."
+        },
+        {
+            "text":"yellow",
+            "audio":"KuaiduYellow_wav",
+            "Image":"yellowTest_png",
+            "name":"yellow",
+            "noSounds":"noitisyellow",
+            "guanlian":"banana",
+            "IwantshuiguoTwo":"theBannerIsYellow_wav",
+            "IwantshuiguoOwn":"theBannerIsYellow_wav",
+            "noText":"no, it is a yellow.",
+            "Iwantan":"The bananas  ",
+            "theTextWenBen":"The bananas are yellow."
+        },
+        {
+            "text":"purple",
+            "audio":"kuaidupurple_wav",
+            "Image":"purpleTest_png",
+            "name":"purple",
+            "noSounds":"noitispurple",
+            "guanlian":"grape",
+            "IwantshuiguoTwo":"thegrapesarepurple_wav",
+            "IwantshuiguoOwn":"thegrapesarepurple_wav",
+            "noText":"no, it is a purple.",
+            "Iwantan":"The grapes  ",
+            "theTextWenBen":"The grapes are purple."
+        }
+    ],
+    "testGame":[
+        {
+            "text":"apple",
+            "audio":"kuaiduApple_wav",
+            "Image":"appleTest_png",
+            "name":"apple",
+            "noAudio":"noitisanapple"
+        },
+        {
+            "text":"banana",
+            "audio":"kuaiduBanner_wav",
+            "Image":"bananaTest_png",
+            "name":"banana",
+            "noAudio":"noitisabanana"
+        },
+        {
+            "text":"grape",
+            "audio":"kuaiduGrape_wav",
+            "Image":"grapeTest_png",
+            "name":"grape",
+            "noAudio":"noitisagrape"
+        }
+    ],
+    "danciKaKuoZhan":[
+        {
+            "text":"apple",
+            "audio":"kuaiduApple_wav",
+            "Image":"appleTest_png",
+            "name":"apple",
+            "noAudio":"noitisanapple"
+        },
+        {
+            "text":"banana",
+            "audio":"kuaiduBanner_wav",
+            "Image":"bananaTest_png",
+            "name":"banana",
+            "noAudio":"noitisabanana"
+        },
+        {
+            "text":"grape",
+            "audio":"kuaiduGrape_wav",
+            "Image":"grapeTest_png",
+            "name":"grape",
+            "noAudio":"noitisagrape"
+        },
+        {
+            "text":"red",
+            "audio":"kuaiduRed_wav",
+            "Image":"redTest_png",
+            "name":"red",
+            "noAudio":"noitisred"
+        },
+        {
+            "text":"yellow",
+            "audio":"KuaiduYellow_wav",
+            "Image":"yellowTest_png",
+            "name":"yellow",
+            "noAudio":"noitisyellow"
+        },
+        {
+            "text":"purple",
+            "audio":"kuaidupurple_wav",
+            "Image":"purpleTest_png",
+            "name":"purple",
+            "noAudio":"noitispurple"
+        }
+    ],
+    "Audio":{
+        "yiqixuexidanci_wav":"yiqixuexidanci_wav",
+        "theAppleIsRed_wav":"theAppleIsRed_wav",
+        "thegrapesarepurple_wav":"thegrapesarepurple_wav",
+        "theBannerIsYellow_wav":"theBannerIsYellow_wav",
+        "kuaiduApple_wav":"kuaiduApple_wav",
+        "kuaiduGrape_wav":"kuaiduGrape_wav",
+        "kuaiduBanner_wav":"kuaiduBanner_wav",
+        "ImhungryYang":"ImhungryYang_wav",
+        "ImhungryHouZi":"ImhungryHouZi_wav",
+        "ImhungryNiu":"ImhungryNiu_wav",
+        "ImhungryZhu":"ImhungryZhu_wav",
+        "ImhungryMao":"ImhungryMao_wav",
+        "ImhungryGou":"ImhungryGou_wav",
+        "IwantanAnApple":"IwantanAnApple_wav",
+        "IwantBananas":"IwantBananas_wav",
+        "IwantGrapes":"IwantGrapes_wav",
+        "xiaopengyou":"xiaopengyou_wav",
+        "noitisabanana":"noitisabanana_wav",
+        "noitisanapple":"noitisanapple_wav",
+        "noitisagrape":"noitisagrape_wav",
+        "jiangli":"jiangli_mp3",
+        "wordTestAudio":"wordTestAudio",
+        "kuaidupurple_wav":"kuaidupurple_wav",
+        "kuaiduRed_wav":"kuaiduRed_wav",
+        "KuaiduYellow_wav":"KuaiduYellow_wav",
+        "noitisred":"noitisred_wav",
+        "noitisyellow":"noitisyellow_wav",
+        "noitispurple":"noitispurple_wav",
+        "theAppleisYummy":"theAppleisYummy_wav",
+        "theBananaisYummy":"theBananaisYummy_wav",
+        "theGrapeisYummy":"theGrapeisYummy_wav",
+        "errorAudio":"errAudio_mp3",
+        "konglongAudio_wav":"konglongAudio_wav",
+        "gameBgAudio":"gameBgAudio_mp3"
+    },
+    "gameCut":[
+        {
+            "text":"watermelon",
+            "Iwantan":"I want an",
+            "Imhungry":"I'm hungry",
+            "IwantshuiguoOwn":"IwantanAnApple"
+        }         
+    ]
+}

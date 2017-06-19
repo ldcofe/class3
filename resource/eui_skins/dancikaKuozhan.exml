@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="dancikaKuozhan" width="1920" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Image source="dancikaKuozhanBg_png" x="0" y="0" height="1280" width="1920"/>
+	<e:Group id="Spirit" width="456" height="605" y="876" horizontalCenter="0">
+		<e:Image source="dancikaKuoZhanShuRuKuang_png" scaleX="1" scaleY="1" verticalCenter="0"/>
+		<e:Group id="SpiritChildrenGroup" width="364" height="228" y="132" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="duihuakuang" width="483" height="372" x="249.55" y="873.85">
+		<e:Image source="dancikaKuoZhanDuihuaKuangTwo_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label id="timutextLabel" text="" x="35.450000000000045" y="98.73" scaleX="1" scaleY="1" anchorOffsetX="0" width="415.15" anchorOffsetY="0" height="169.69" verticalAlign="middle" textAlign="center" size="100" textColor="0x0c0202"/>
+	</e:Group>
+	<e:Group id="mainGroup" width="1920" height="1280" x="0" y="0">
+		<e:Group width="519" height="477" x="108" y="224" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image id="groupimageQuanOwn" source="dancikaKuoZhanPanziOwn_png" x="0" y="0" touchEnabled="false"/>
+			<e:Image id="groupimageDizuoOwn" source="dancikaKuozhanPanZi_png" x="0" y="209" touchEnabled="false"/>
+			<e:Group id="groupOwn" width="350" height="350" x="85.5" y="-60" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="519" height="477" x="697" y="228" scaleX="1" scaleY="1">
+			<e:Image source="dancikaKuoZhanPanziOwn_png" x="0" y="0" touchEnabled="false"/>
+			<e:Image source="dancikaKuozhanPanZi_png" x="-4" y="216" touchEnabled="false"/>
+			<e:Group id="groupTwo" width="350" height="350" x="91.5" y="-54" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="519" height="477" x="1300" y="232" scaleX="1" scaleY="1">
+			<e:Image source="dancikaKuoZhanPanziOwn_png" x="0" y="0" touchEnabled="false"/>
+			<e:Image source="dancikaKuozhanPanZi_png" x="0" y="212" touchEnabled="false"/>
+			<e:Group id="groupThree" width="350" height="350" x="87.5" y="-58" touchEnabled="false"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="textGroup" width="456" height="172" x="144" y="706">
+		<e:Image source="dancikaKuoZhanDuihuaKuang_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label id="textLable" text="" x="14" y="18" anchorOffsetY="0" height="144" anchorOffsetX="0" width="430" textColor="0x0a0404" verticalAlign="middle" textAlign="center" size="80" fontFamily="Arial"/>
+	</e:Group>
+
+</e:Skin>
