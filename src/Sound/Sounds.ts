@@ -49,7 +49,43 @@ class  Sounds{
 
     public static konglongAudio_wav:egret.Sound;    //恐龙声音
 
+    public static classStart:egret.Sound;       //clas3 Start 开场
+    public static watermelonFast:egret.Sound;         //梨 快读
+    public static watermelonSlow:egret.Sound;         //梨 慢读
+    public static orangeFast:egret.Sound;         //梨 快读
+    public static orangeSlow:egret.Sound;         //梨 慢读        
+    public static pearFast:egret.Sound;         //梨 快读
+    public static pearSlow:egret.Sound;         //梨 慢读
+    public static cherryFast:egret.Sound;      //
+    public static cherrySlow:egret.Sound;     //
+    public static mangoFast:egret.Sound;      //
+    public static mangoSlow:egret.Sound;           //
+    public static strawberryFast:egret.Sound;      //
+    public static strawberrySlow:egret.Sound;           //
+    public static bigFast:egret.Sound;      //
+    public static bigSlow:egret.Sound;           //
+    public static smallFast:egret.Sound;      //
+    public static smallSlow:egret.Sound;           //
 
+    public static pearColor:egret.Sound;
+    public static cherryColor:egret.Sound;
+    public static mangoColor:egret.Sound;
+    public static strawberryColor:egret.Sound;
+    public static whichIsBig:egret.Sound;
+    public static whichIsSmall:egret.Sound;    
+    public static watermelonIsBig:egret.Sound;
+    public static cherryIsSmall:egret.Sound;
+    public static pearIsBig:egret.Sound;
+    public static starwberryIsSmall:egret.Sound;
+    public static mangoIsBig:egret.Sound;
+    public static noMangoIsBig:egret.Sound; 
+    public static orangeIsSmall:egret.Sound; 
+    public static noorangeIsSmall:egret.Sound; 
+    public static noorangeIsBig:egret.Sound; 
+    public static nostarwberryIsSmall:egret.Sound; 
+    public static nocherryIsSmall:egret.Sound; 
+    public static nopearIsBig:egret.Sound; 
+    public static nopearIsSmall:egret.Sound;      
     
 
     
@@ -107,7 +143,43 @@ class  Sounds{
         Sounds.konglongAudio_wav = RES.getRes(str.konglongAudio_wav);//恐龙声音
 
         
-        
+        Sounds.classStart = RES.getRes(str.classStart);       //clas3 Start 开场    
+        Sounds.watermelonFast = RES.getRes(str.watermelonFast);         //梨 快读
+        Sounds.watermelonSlow = RES.getRes(str.watermelonSlow);         //梨 慢读
+        Sounds.orangeFast = RES.getRes(str.orangeFast);         //梨 快读
+        Sounds.orangeSlow = RES.getRes(str.orangeSlow);         //梨 慢读        
+        Sounds.pearFast = RES.getRes(str.pearFast);         //梨 快读
+        Sounds.pearSlow = RES.getRes(str.pearSlow);         //梨 慢读
+        Sounds.cherryFast = RES.getRes(str.cherryFast);      //
+        Sounds.cherrySlow = RES.getRes(str.cherrySlow);     //
+        Sounds.mangoFast = RES.getRes(str.mangoFast);      //
+        Sounds.mangoSlow = RES.getRes(str.mangoFast);           //
+        Sounds.strawberryFast = RES.getRes(str.strawberryFast);      //
+        Sounds.strawberrySlow = RES.getRes(str.strawberrySlow);           //
+        Sounds.bigFast = RES.getRes(str.bigFast);      //
+        Sounds.bigSlow = RES.getRes(str.bigSlow);           //
+        Sounds.smallFast = RES.getRes(str.smallFast);      //
+        Sounds.smallSlow = RES.getRes(str.smallSlow);           //
+
+        Sounds.pearColor = RES.getRes(str.pearColor);
+        Sounds.cherryColor = RES.getRes(str.cherryColor);
+        Sounds.mangoColor = RES.getRes(str.mangoColor);
+        Sounds.strawberryColor = RES.getRes(str.strawberryColor);
+        Sounds.whichIsBig = RES.getRes(str.whichIsBig);
+        Sounds.whichIsSmall = RES.getRes(str.whichIsSmall);    
+        Sounds.watermelonIsBig = RES.getRes(str.watermelonIsBig);
+        Sounds.cherryIsSmall = RES.getRes(str.cherryIsSmall);
+        Sounds.pearIsBig = RES.getRes(str.pearIsBig);
+        Sounds.starwberryIsSmall = RES.getRes(str.starwberryIsSmall);
+        Sounds.mangoIsBig = RES.getRes(str.mangoIsBig);
+        Sounds.noMangoIsBig = RES.getRes(str.noMangoIsBig); 
+        Sounds.orangeIsSmall = RES.getRes(str.orangeIsSmall); 
+        Sounds.noorangeIsSmall = RES.getRes(str.noorangeIsSmall); 
+        Sounds.noorangeIsBig = RES.getRes(str.noorangeIsBig); 
+        Sounds.nostarwberryIsSmall = RES.getRes(str.nostarwberryIsSmall); 
+        Sounds.nocherryIsSmall = RES.getRes(str.nocherryIsSmall); 
+        Sounds.nopearIsBig = RES.getRes(str.nopearIsBig); 
+        Sounds.nopearIsSmall = RES.getRes(str.nopearIsSmall);          
 
 
 

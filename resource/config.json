@@ -236,14 +236,63 @@
         "theGrapeisYummy":"theGrapeisYummy_wav",
         "errorAudio":"errAudio_mp3",
         "konglongAudio_wav":"konglongAudio_wav",
-        "gameBgAudio":"gameBgAudio_mp3"
-    },
+        "gameBgAudio":"gameBgAudio_mp3",
+        "classStart":"classStart_wav",        
+        "watermelonFast":"2_DCK_02_01_wav",
+        "watermelonSlow":"2_DCK_02_02_wav",
+        "orangeFast":"2_DCK_03_01_wav",
+        "orangeSlow":"2_DCK_03_02_wav",
+        "pearFast":"3_DCK_29_01_wav",
+        "pearSlow":"3_DCK_29_02_wav",
+        "cherryFast":"3_DCK_30_01_wav",
+        "cherrySlow":"3_DCK_30_02_wav",
+        "mangoFast":"3_DCK_31_01_wav",
+        "mangoSlow":"3_DCK_31_01_wav",
+        "strawberryFast":"3_DCK_32_01_wav",
+        "strawberrySlow":"3_DCK_32_02_wav",
+        "bigFast":"3_DCK_33_01_wav",
+        "bigSlow":"3_DCK_33_02_wav",
+        "smallFast":"3_DCK_34_01_wav",
+        "smallSlow":"3_DCK_34_02_wav",
+        "pearColor":"3_JZDDC_35_wav",
+        "cherryColor":"3_JZDDC_36_wav",
+        "mangoColor":"3_JZDDC_37_wav",
+        "strawberryColor":"3_JZDDC_38_wav",
+        "whichIsBig":"3_QSG_41_wav",
+        "whichIsSmall":"3_QSG_42_wav",     
+        "watermelonIsBig":"3_JZDDC_39_wav",
+        "cherryIsSmall":"3_JZDDC_40_wav",
+        "pearIsBig":"3_QSG_49_wav",
+        "starwberryIsSmall":"3_QSG_50_wav",
+        "mangoIsBig":"3_QSG_51_wav",
+        "noMangoIsBig":"3_QSG_52_wav", 
+        "orangeIsSmall":"3_QSG_53_wav", 
+        "noorangeIsSmall":"3_QSG_54_wav", 
+        "noorangeIsBig":"3_QSG_56_wav", 
+        "nostarwberryIsSmall":"3_QSG_61_wav", 
+        "nocherryIsSmall":"cherryIsSmall_wav", 
+        "nopearIsBig":"pearIsBig_wav", 
+        "nopearIsSmall":"pearIsSmall_wav"                           
+    },    
     "gameCut":[
         {
             "text":"watermelon",
-            "Iwantan":"I want an",
-            "Imhungry":"I'm hungry",
-            "IwantshuiguoOwn":"IwantanAnApple"
-        }         
+            "gameTip":"watermelonFast"
+        },{
+            "text":"cherry",
+            "gameTip":"cherryFast"
+        },{
+            "text":"pear",
+            "gameTip":"pearFast"
+        },{
+            "text":"strawberry",
+            "gameTip":"strawberryFast"
+        },{
+            "text":"orange",
+            "gameTip":"orangeFast"
+        },{
+            "text":"mango",
+            "gameTip":"mangoFast"
+        }             
     ]
 }
