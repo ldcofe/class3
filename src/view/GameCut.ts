@@ -70,7 +70,7 @@ class GameCut extends eui.Component{
     // 游戏玩法函数
     private playGameScence(){
         // 播放开始场景音
-        let SoundsTimerstart = Sounds.classStart.play(0,1)
+        let SoundsTimerstart = Sounds.xiaopengyou.play(0,1)
         // 播放完后回调
         SoundsTimerstart.addEventListener(egret.Event.SOUND_COMPLETE,function(){
             this.stageStatus += 1;
@@ -124,6 +124,7 @@ class GameCut extends eui.Component{
                 this.gameCutLaba.visible = false;
 
                 // 播放对应的音频
+                console.log(';;;;;;'+indexObject.gameTip);
                 let soundsTwo = Sounds[indexObject.gameTip].play(0,1);
                 soundsTwo.addEventListener(egret.Event.SOUND_COMPLETE,function(){
                     soundsTwo = null;
